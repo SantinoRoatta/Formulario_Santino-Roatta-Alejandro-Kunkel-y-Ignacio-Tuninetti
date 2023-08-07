@@ -1,0 +1,20 @@
+body{
+    background-color: tomato;
+}
+.encabezado1{
+    color: yellow;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.contenedor {
+    display: flex; /* Uso de flexbox para dividir el contenido en dos columnas */
+}
+.formulario {
+    flex: 1; /* Ocupa el 50% del ancho disponible */
+    padding: 20px;
+    background-color: chocolate;
+}
+.datos {
+    flex: 1; /* Ocupa el 50% del ancho disponible */
+    padding: 20px;
+    background-color:springgreen;
+}
